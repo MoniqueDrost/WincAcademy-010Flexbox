@@ -1,0 +1,111 @@
+body {
+    background-color: #fabf97;
+    color: #0f0500;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+header {
+    background-color: #ad281c6c;
+    color: #0f0500;
+    border: 10px solid;
+    border-color:#0e05012d;
+    margin: 0 auto;
+    width: 80%;
+
+}
+footer {
+    background-color: #ad281cb4;
+}
+h1 {
+    font-family: Chango, sans-serif;
+    font-size: 18px;
+
+}
+a {
+color:#faecad;
+font-family: Chango, sans-serif;
+text-decoration: none;
+
+}
+img {
+    border-radius: 25px;
+
+}
+img.pasfoto {
+	border: 1px solid #999;
+	background-color: #fcfcfc;
+	padding: 4px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+
+}
+.box-1 {
+    background-color: #ad281c6c;
+    color: #0f0500;
+    border: 5px solid; 
+    border-color: #420804;
+    border-radius: 25px;
+    padding: 10px 15px;
+        
+}
+.box-2 {
+    background-color:#fac7a5;
+    color: #420804;
+    border: 5px dotted #420804;
+    border-radius: 25px;
+    padding:10px 15px;
+    margin: 15px 40px;
+    
+}
+.box-3 {
+    background-color: #ad281c6c;
+    color: #0f0500;
+    border: 5px solid; 
+    border-color: #420804;
+    border-radius: 25px;
+    padding: 10px 15px;
+    margin: 15px 40px;
+}
+.navbar {
+    background-color: #420804;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px 40px;
+}
+.navbar li {
+    display: inline;
+    padding: 10px;
+}
+.responsive400 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+.blog {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.blogpost { 
+    width: 300px;  border: 1px solid black; margin: 5px;
+
+}
+.blogpost2 { 
+    width: 300px;  border: 1px solid black; margin: 5px;
+    flex-grow: 10;
+    align-self: stretch;
+}
+
+@media screen and (min-width: 1024px) {
+   body {
+       background-color: #ffaa71;
+       } 
+    .box-2 {
+        color: white;
+        font-size: 12px;
+        line-height: 2.5em;
+    }
+}
+    
